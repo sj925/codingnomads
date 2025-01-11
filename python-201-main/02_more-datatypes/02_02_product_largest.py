@@ -8,3 +8,17 @@
 from resources import randlist
 
 print(randlist)
+
+largest_number = max(randlist)
+print(f'The largest number in the list is: {largest_number}')
+
+product = 1 
+
+for item in randlist:
+    product *= item
+
+print(f'the product of all the numbers in {randlist} =', product)
+    
+
+
+
