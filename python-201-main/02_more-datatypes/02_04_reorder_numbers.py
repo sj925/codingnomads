@@ -6,3 +6,16 @@
 #
 # Example input:  1,2,3,4,5,6,7,8,9,10
 # Example output: 2,4,6,8,10,9,7,5,3,1
+
+user_input = input("enter a list of ten numbers: ")
+
+list_nums = [int(num.strip()) for num in user_input.split(",")]
+
+evens = list_nums[1::2]
+odds = list_nums[8::-2]
+
+results = evens + odds
+print(results)
+
+final_results = ",".join(str(item) for item in results)
+print(final_results)
