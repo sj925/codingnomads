@@ -4,3 +4,10 @@
 
 # input = "hello world"
 # result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
+
+user_string = input("Enter a string: ")
+
+
+list_of_tuples = list(tuple(x) for x in user_string.split())
+
+print(list_of_tuples)
