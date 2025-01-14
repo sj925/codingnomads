@@ -14,6 +14,23 @@
 
 from resources import randlist
 
-print(randlist)
-
 # Write your code below here
+
+lst = randlist
+lst.sort()
+print(lst)
+
+new_lst = []
+
+for num in range(0, len(lst), 2):
+    if num + 1 < len(lst):
+        pair = (lst[num], lst[num +1])
+    else:
+        pair = (lst[num], 0)
+    new_lst.append(pair)
+    print(pair)
+    
+print(new_lst)
+        
+
+
