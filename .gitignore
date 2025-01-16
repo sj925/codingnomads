@@ -1,0 +1,18 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+
+# Virtual environment created by Poetry
+.env/
+.venv/
+
+# Poetry lock file
+poetry.lock
+
+# OS-specific files
+.DS_Store
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.swp
