@@ -23,10 +23,14 @@ office = [
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
 
-max_lastname_length = max(len(person["full_name"].split()[-1]) for person in office)
+#prettytable for this ex is easier to read rather than formatting the f-string
+from prettytable import PrettyTable
 
-# Print the formatted output
+table = PrettyTable()
+table.field_names = ["Last Name", "First Name", "Office Supply"]
+
 for person in office:
     first_name, last_name = person["full_name"].split()
-    item = person["item"]
-    print(f"{last_name.upper():<{max_lastname_length}}, {first_name:<10} {item}")
+    table.add_row([last_name.upper(), first_name, person["item"]])
+
+print(table)
