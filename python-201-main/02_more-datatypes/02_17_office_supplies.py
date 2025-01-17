@@ -4,6 +4,8 @@
 #
 # LASTNAME, Name           Office supply item
 # LONGERLASTNAME, Name     Office supply item
+#prettytable for this ex is easier to read rather than formatting the f-string
+from prettytable import PrettyTable
 
 office = [
     {"full_name": "Michael Scott", "item": "world's best boss mug"},
@@ -22,9 +24,6 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
-
-#prettytable for this ex is easier to read rather than formatting the f-string
-from prettytable import PrettyTable
 
 table = PrettyTable()
 table.field_names = ["Last Name", "First Name", "Office Supply"]

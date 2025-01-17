@@ -7,7 +7,6 @@
 
 user_string = input("Enter a string: ")
 
-
 list_of_tuples = list(tuple(x) for x in user_string.split())
 
 print(list_of_tuples)

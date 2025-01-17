@@ -12,3 +12,6 @@ print(newlist)
 
 otherlist = [x for x in mylist if mylist.count(x) == 1]
 print(otherlist)
+
+
+# depends on definition of unique. set returns unique values while the list comprehension will only return items that appear once

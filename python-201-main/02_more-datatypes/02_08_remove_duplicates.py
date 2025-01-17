@@ -10,7 +10,8 @@ list_ = [1, 2, 3, 4, 3, 4, 5]
 list_ = list(set(list_))
 print(list_)
 
-#second way if first list above was not already modified to catch dupes. would need to comment out first approach for second to work
+#second way if first list above was not already modified to catch dupes. 
+#would need to comment out first approach for second to work
         
 list2 = []
 
