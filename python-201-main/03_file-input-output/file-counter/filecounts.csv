@@ -1,17 +1,7 @@
-folder,csv,.md,.png
-
-.,c,s,v
-.,m,d
-.,p,n,g
-,8
-.csv,2
-.md,2
-.png,11
-,8
-.csv,2
-.md,2
-.png,11
-,8
-.csv,2
-.md,2
-.png,11
+File Type,Count
+.py,7
+.txt,3
+.csv,1
+.jpg,0
+.png,0
+.md,0
