@@ -2,8 +2,8 @@
 # should at least describe what it does, what arguments it takes,
 # and what it returns.
 
-def km_to_miles(km):
-    """Add your docstring here."""
+def km_to_miles(km): 
+    """A function that takes in kilometers and converts it to miles"""
     miles = km * 0.6
     return miles
 
