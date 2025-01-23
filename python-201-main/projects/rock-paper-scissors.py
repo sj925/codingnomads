@@ -25,9 +25,11 @@ def get_hand(index: int) -> str:
 def determine_winner(user, computer):
     if user == computer:
         print("This was a draw!")
-    elif (user == "rock" and computer == "scissors") or \
-         (user == "scissors" and computer == "paper") or \
-         (user == "paper" and computer == "rock"):
+    elif (
+         (user == "rock" and computer == "scissors") or 
+         (user == "scissors" and computer == "paper") or 
+         (user == "paper" and computer == "rock")
+         ):
         print("You are the winner!")
     else:
         print("Computer won!")
