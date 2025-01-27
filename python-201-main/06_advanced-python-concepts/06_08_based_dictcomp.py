@@ -12,3 +12,12 @@
 # {0: [0, 0, 0], 1: [0, 0, 1], 2: [0, 1, 0], 3: [0, 1, 1], ...,
 # 7: [1, 1, 1], 8: [1, 0, 0, 0], 9: [1, 0, 0, 1], ...,
 # 999: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1]}
+
+digit_mapping = {n: [int(d) for d in str(n)] for n in range(1000)}
+print(digit_mapping)
+
+
+binary_mapping = {n: [int(d) for d in bin(n)[2:]] for n in range(1000)}
+print(binary_mapping)
+
+
