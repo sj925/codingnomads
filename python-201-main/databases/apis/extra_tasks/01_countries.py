@@ -9,7 +9,6 @@ In your python program, parse and compare the data of the two responses:
 
 '''
 import requests 
-from pprint import pprint
 
 url = "https://restcountries.com/v3.1/name"
 country1 = "United States"
